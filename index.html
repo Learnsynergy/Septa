@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            width: 50px;
+            height: 30px;
+            background-image: url('WX.png'); /* Remplacez le chemin par le chemin de votre logo */
+            background-size: cover;
+            margin-right: 10px;
+        }
+
+        nav {
+            flex-grow: 1;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-container {
+            background-color: #ccffcc; /* Vert clair */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        #institution-text {
+            margin-bottom: 20px;
+        }
+
+        #institution-logos {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); /* 6 colonnes égales */
+            grid-gap: 20px; /* Espace entre les logos */
+            justify-content: center;
+        }
+
+        .logo-group a {
+            text-decoration: none;
+        }
+
+        .logo-group img {
+            width: 100px; /* Ajustez la taille des logos selon vos besoins */
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo"></div>
+        <nav>
+            <a href="#">Contactez nous</a>
+            <a href="#">A propos</a>
+            <a href="#">English</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card-container">
+            <div id="institution-text">
+                <p>Choisissez votre institution financière</p>
+            </div>
+
+            <div id="institution-logos">
+                <!-- Remplacez les liens des logos par les vôtres -->
+                <div class="logo-group"><a href="page1.html"><img src="WX.png" alt="Logo 1"></a></div>
+                <div class="logo-group"><a href="page2.html"><img src="WX.png" alt="Logo 2"></a></div>
+                <div class="logo-group"><a href="page3.html"><img src="WX.png" alt="Logo 3"></a></div>
+                <div class="logo-group"><a href="page4.html"><img src="WX.png" alt="Logo 4"></a></div>
+                <div class="logo-group"><a href="page5.html"><img src="WX.png" alt="Logo 5"></a></div>
+                <div class="logo-group"><a href="page6.html"><img src="WX.png" alt="Logo 6"></a></div>
+                <div class="logo-group"><a href="page7.html"><img src="WX.png" alt="Logo 7"></a></div>
+                <div class="logo-group"><a href="page8.html"><img src="WX.png" alt="Logo 8"></a></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
